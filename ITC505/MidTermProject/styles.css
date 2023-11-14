@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#home {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home-image-container {
+    margin-top: 20px;
+    opacity: 1;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+#home-buttons button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#addendum {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#addendum h2 {
+    color: #333;
+}
+
+#addendum p {
+    margin-bottom: 15px;
+}
+
+#decision-page {
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+#decision-page h2 {
+    color: #333;
+}
+
+#choices button {
+    font-size: 1em;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#story-image {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+#restart-game {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Add more styles as needed */
